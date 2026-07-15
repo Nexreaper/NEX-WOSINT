@@ -58,8 +58,8 @@ Nexreaper OSINT is a powerful Node.js command-line tool designed for comprehensi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/nexreaper-osint.git
-cd nexreaper-osint
+https://github.com/Nexreaper/NEX-WOSINT.git
+cd NEX-WOSINT
 
 # Install dependencies (automatically handled on first run)
 npm install
@@ -70,7 +70,7 @@ npm install
 ## 🖥️ Usage
 
 ```bash
-node webosint.js
+node main.js
 ```
 
 On first launch, the tool will **automatically install** any missing dependencies (`axios`, `chalk`, `whois-json`, `ipaddr.js`). Then you'll see the interactive menu:
