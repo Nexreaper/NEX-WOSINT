@@ -1,0 +1,26 @@
+{
+  "name": "nexreaper-osint",
+  "version": "8.0.0",
+  "description": "Advanced Web OSINT & Security Scanner – 30+ features, real vulnerability testing, endpoint discovery, and complete data extraction.",
+  "main": "webosint.js",
+  "scripts": {
+    "start": "node webosint.js",
+    "scan": "node webosint.js"
+  },
+  "author": "Ahmad Bilal Qureshi (Nexreaper)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "whois-json": "^2.0.0",
+    "ipaddr.js": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["osint", "security", "scanner", "vulnerability", "recon", "nexreaper"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nexreaper-osint"
+  }
+}
